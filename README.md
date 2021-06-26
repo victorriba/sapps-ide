@@ -18,4 +18,5 @@ yarn theia start /home/apps --hostname 0.0.0.0 --port 8080
 
 nano ~/.bashrc
 
+export THEIA_DEFAULT_PLUGINS=local-dir:/opt/ide/plugins
 
