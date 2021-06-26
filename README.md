@@ -13,3 +13,9 @@ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
 sudo apt update && sudo apt install yarn
+
+yarn theia start /home/apps --hostname 0.0.0.0 --port 8080
+
+nano ~/.bashrc
+
+
